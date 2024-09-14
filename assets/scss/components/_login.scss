@@ -5,7 +5,7 @@
       display: grid;
    }
    &__form{
-      background-color: var(--container-color);
+      background-color: $container-color;
       padding: 2rem 1.5rem 2.5rem;
       box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
       border-radius: 1rem;
@@ -15,8 +15,8 @@
       transition: transform .4s;
    }
    &__title{
-      font-size: var(--h2-font-size);
-      color: var(--title-color);
+      font-size: $h2-font-size;
+      color: $title-color;
    }
    &__group{
       row-gap: 1rem;
@@ -24,40 +24,40 @@
    &__label{
       display: block;
       text-align: initial;
-      color: var(--title-color);
-      font-weight: var(--font-medium);
+      color: $title-color;
+      font-weight: $font-medium;
       margin-bottom: .25rem;
    }
    &__input{
       width: 100%;
-      background-color: var(--container-color);
-      border: 2px solid var(--border-color);
+      background-color: $container-color;
+      border: 2px solid $border-color;
       padding: 1rem;
       border-radius: .5rem;
-      color: var(--text-color);
+      color: $text-color;
 
       &::placeholder{
-         color: var(--text-color);
+         color: $text-color;
       }
    }
    &__signup{
       margin-bottom: .5rem;
 
       & a{
-         color: var(--first-color);
+         color: $first-color;
       }
    }
    &__forgot{
       display: inline-block;
-      color: var(--first-color);
+      color: $first-color;
       margin-bottom: 1.25rem;
    }
    &__button{
       display: inline-block;
-      background-color: var(--first-color);
+      background-color: $first-color;
       width: 100%;
       color: #fff;
-      font-weight: var(--font-semi-bold);
+      font-weight: $font-semi-bold;
       padding: 1rem;
       border-radius: .5rem;
       cursor: pointer;

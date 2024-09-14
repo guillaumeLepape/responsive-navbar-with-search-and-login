@@ -4,20 +4,20 @@
    top: 0;
    left: 0;
    width: 100%;
-   background-color: var(--body-color);
+   background-color: $body-color;
    box-shadow: 0 2px 16px hsla(230, 75%, 32%, .15);
-   z-index: var(--z-fixed);
+   z-index: $z-fixed;
 }
 
 .nav{
-   height: var(--header-height);
+   height: $header-height;
    display: flex;
    justify-content: space-between;
    align-items: center;
 
    &__logo{
-      color: var(--title-color);
-      font-weight: var(--font-semi-bold);
+      color: $title-color;
+      font-weight: $font-semi-bold;
       transition: color .4s;
    }
    &__actions{
@@ -30,12 +30,12 @@
    &__toggle,
    &__close{
       font-size: 1.25rem;
-      color: var(--title-color);
+      color: $title-color;
       cursor: pointer;
       transition: color .4s;
    }
    :is(&__logo, &__search, &__login, &__toggle, &__link):hover{
-      color: var(--first-color);
+      color: $first-color;
    }
    // Navigation for mobile devices
    &__menu{
@@ -43,7 +43,7 @@
          position: fixed;
          top: -100%;
          left: 0;
-         background-color: var(--body-color);
+         background-color: $body-color;
          box-shadow: 0 8px 16px hsla(230, 75%, 32%, .15);
          width: 100%;
          padding-block: 4.5rem 4rem;
@@ -57,8 +57,8 @@
       text-align: center;
    }
    &__link{
-      color: var(--title-color);
-      font-weight: var(--font-semi-bold);
+      color: $title-color;
+      font-weight: $font-semi-bold;
       transition: color .4s;
    }
    &__close{

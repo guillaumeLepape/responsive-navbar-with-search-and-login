@@ -4,7 +4,7 @@
       display: flex;
       align-items: center;
       column-gap: .5rem;
-      background-color: var(--container-color);
+      background-color: $container-color;
       box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
       padding-inline: 1rem;
       border-radius: .5rem;
@@ -13,16 +13,16 @@
    }
    &__icon{
       font-size: 1.25rem;
-      color: var(--title-color);
+      color: $title-color;
    }
    &__input{
       width: 100%;
       padding-block: 1rem;
-      background-color: var(--container-color);
-      color: var(--text-color);
+      background-color: $container-color;
+      color: $text-color;
 
       &::placeholder{
-         color: var(--text-color);
+         color: $text-color;
       }
    }
 }

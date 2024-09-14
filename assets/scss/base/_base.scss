@@ -12,13 +12,13 @@ html{
 body,
 input,
 button{
-	font-family: var(--body-font);
-	font-size: var(--normal-font-size);
+	font-family: $body-font;
+	font-size: $normal-font-size;
 }
 
 body{
-	background-color: var(--body-color);
-	color: var(--text-color);
+	background-color: $body-color;
+	color: $text-color;
 }
 
 input,
